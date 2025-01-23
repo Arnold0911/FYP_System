@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MiniGameActivity"
+    android:orientation="vertical"
+    android:background="#e7dfc2"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="315dp"
+        android:layout_height="107dp"
+        app:srcCompat="@drawable/game_title" />
+
+    <ImageView
+        android:layout_width="141dp"
+        android:layout_height="193dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        app:srcCompat="@drawable/tong" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:backgroundTint="#bb8044"
+        android:fontFamily="@font/kenney_blocks"
+        android:text="Start"
+        android:textColor="@android:color/white"
+        android:textSize="32sp"
+        android:onClick="startGame"/>
+
+    <Button
+        android:id="@+id/btnToggleVolume"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:backgroundTint="#bb8044"
+        android:fontFamily="@font/kenney_blocks"
+        android:text="Toggle Volume"
+        android:textColor="@android:color/white"
+        android:textSize="32sp"
+        android:onClick="toggleVolume"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

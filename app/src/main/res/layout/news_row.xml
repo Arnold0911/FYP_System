@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/layout_news"
+    android:layout_margin="10dp">
+    <TextView
+        android:id="@+id/newsName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/newsContext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="context"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>
